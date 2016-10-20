@@ -12,6 +12,9 @@ namespace MvvmTemplate.ViewModels.Main
 
         public ICommand Click { get; }
 
+
+       public IMvxAsyncCommand DoSomething { get; }
+
         public MainViewModel()
         {
             ClickCount = "0";

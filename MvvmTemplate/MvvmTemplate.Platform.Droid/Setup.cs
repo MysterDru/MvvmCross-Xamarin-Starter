@@ -1,11 +1,12 @@
 using Android.Content;
-using MvvmCross.Platform;
-using MvvmCross.Platform.Platform;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Core.Views;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Droid.Views;
 using MvvmCross.Forms.Presenter.Droid;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Core.Views;
+using MvvmCross.Platform;
+using MvvmCross.Platform.IoC;
+using MvvmCross.Platform.Platform;
 
 namespace MvvmTemplate.Platform.Droid
 {
@@ -37,6 +38,11 @@ namespace MvvmTemplate.Platform.Droid
             Mvx.RegisterSingleton<IMvxViewPresenter>(presenter);
 
             return presenter;
+        }
+
+        protected override IMvxIoCProvider CreateIocProvider()
+        {
+            return new AutofacMvxIocProvider(AutofacBootstrapper.Initialize());
         }
     }
 }
