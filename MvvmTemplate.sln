@@ -11,13 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmTemplate.Platform.Droid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmTemplate.Platform.iOS", "MvvmTemplate\MvvmTemplate.Platform.iOS\MvvmTemplate.Platform.iOS.csproj", "{84352DCB-857A-4B49-8981-97B6194D7A09}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MvvmTemplate.Platform.Shared", "MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.shproj", "{87B8E45D-5B26-4B4C-B6B0-E497296C45C8}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MvvmTemplate.Platform.Shared", "MvvmTemplate\MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.shproj", "{87B8E45D-5B26-4B4C-B6B0-E497296C45C8}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.projitems*{2e7cc145-aa1d-4517-92e0-0ccd70d640e5}*SharedItemsImports = 4
-		MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.projitems*{84352dcb-857a-4b49-8981-97b6194d7a09}*SharedItemsImports = 4
-		MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.projitems*{87b8e45d-5b26-4b4c-b6b0-e497296c45c8}*SharedItemsImports = 13
+		MvvmTemplate\MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.projitems*{2e7cc145-aa1d-4517-92e0-0ccd70d640e5}*SharedItemsImports = 4
+		MvvmTemplate\MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.projitems*{84352dcb-857a-4b49-8981-97b6194d7a09}*SharedItemsImports = 4
+		MvvmTemplate\MvvmTemplate.Platform.Shared\MvvmTemplate.Platform.Shared.projitems*{87b8e45d-5b26-4b4c-b6b0-e497296c45c8}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

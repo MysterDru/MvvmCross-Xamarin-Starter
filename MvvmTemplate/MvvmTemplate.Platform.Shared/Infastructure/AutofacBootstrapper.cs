@@ -17,7 +17,7 @@ namespace MvvmTemplate.Platform
             cb.RegisterModule<ViewModelModule>();
             cb.RegisterModule<ServicesModule>();
 
-            cb.RegisterModule<PlatformModule>();
+            cb.RegisterModule<FormsPlatformModule>();
 
 #if __ANDROID__
             cb.RegisterModule<Droid.Infastructure.DroidPlatformModule>();

@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using MvvmCross.Droid.Views;
 using System;
 using System.Collections.Generic;
 using System.Text;
